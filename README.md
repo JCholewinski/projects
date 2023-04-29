@@ -4,4 +4,4 @@ Na kazdym branchu znajduje sie osobny projekt,
 
 -sklep: model funkcjonalności sklepu w C++
 
--bank: model banku
+-bank: model banku w Python
