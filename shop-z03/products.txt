@@ -1,0 +1,30 @@
+200 00
+2
+przesylka_1
+9 99
+przesylka_2
+12 99
+bluza
+1
+50 20
+2
+25-05-2022
+bluzy ubrania
+S 10 M 15
+opis1
+spodnie
+2
+80 99
+1
+25-05-2022
+spodnie ubrania
+S 5 M 10
+opis2
+koszulka
+3
+75 00
+15
+26-05-2022
+koszulki ubrania
+L 20
+opis3
