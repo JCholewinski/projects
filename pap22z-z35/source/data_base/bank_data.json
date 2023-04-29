@@ -1,0 +1,231 @@
+[
+    {"currencies": [
+        {
+            "name": "złoty",
+            "sign": "zł",
+            "rate": "1",
+            "buying_rate": "1",
+            "selling_rate": "1"
+        },
+        {
+            "name": "dolar",
+            "sign": "$",
+            "rate": "4.5",
+            "buying_rate": "4.3",
+            "selling_rate": "4.7"
+        },
+        {
+            "name": "euro",
+            "sign": "€",
+            "rate": "4.7",
+            "buying_rate": "4.5",
+            "selling_rate": "4.9"
+        },
+        {
+            "name": "funt",
+            "sign": "£",
+            "rate": "5.2",
+            "buying_rate": "5.0",
+            "selling_rate": "5.4"
+        }
+    ],
+    "clients": [
+        {
+            "id": "1",
+            "pass": "pap1",
+            "name": "Patryk",
+            "phone": "111222333",
+            "main_acc": {
+                "id": "1",
+                "money": "10000",
+                "bank_transfers": [
+                    {
+                        "sender_id": "1",
+                        "reciver_id": "3",
+                        "amount": "1000",
+                        "title": "przelew",
+                        "send_date": [2022, 12, 17, 10, 10, 10],
+                        "recive_date": [2022, 12 ,17, 10, 11, 10]
+                    }
+                ],
+                "currency_accounts": [
+                    {
+                        "currency_sign": "$",
+                        "amount": "10000",
+                        "form_date": [2022, 12, 17, 10, 11, 10],
+                        "scrap_date": [2022, 12, 17, 10, 12, 10]
+                    }
+                ],
+                "deposits": [
+                    {
+                        "duration": "3",
+                        "amount": "10000",
+                        "interest_rate": "2",
+                        "creation_date": [2022, 12, 17, 10, 12, 10],
+                        "scrap_date": [2022, 12, 18, 10, 12, 10]
+                    }
+                ],
+                "credits": [
+                    {
+                        "duration": "6",
+                        "amount": "10000",
+                        "interest_rate": "5",
+                        "creation_date": [2022, 12, 17, 10, 12, 10],
+                        "last_installment_date": [2023, 1, 6, 10, 12, 10],
+                        "scrap_date": [2023, 6, 17, 10, 12, 10]
+                    }
+                ],
+                "expenses": [
+                    {
+                        "month": "12",
+                        "year": "2022",
+                        "amount": "10000"
+                    }
+                ],
+                "credit_transfer": [
+                    {
+                        "amount": "1100",
+                        "date": [2023, 1, 5, 10, 12, 10]
+                    }
+                ],
+                "overdue_credit_installments": "1"
+            }
+        },
+        {
+            "id": "2",
+            "pass": "pap2",
+            "name": "Kasia",
+            "phone": "222333111",
+            "main_acc": {
+                "id": "2",
+                "money": "20000",
+                "bank_transfers": [
+                    {
+                        "sender_id": "2",
+                        "reciver_id": "3",
+                        "amount": "1000",
+                        "title": "przelew",
+                        "send_date": [2022, 12, 17, 10, 10, 10],
+                        "recive_date": [2022, 12 ,17, 10, 11, 10]
+                    }
+                ],
+                "currency_accounts": [
+                    {
+                        "currency_sign": "$",
+                        "amount": "10000",
+                        "form_date": [2022, 12, 17, 10, 11, 10],
+                        "scrap_date": [2022, 12, 17, 10, 12, 10]
+                    }
+                ],
+                "deposits": [
+                    {
+                        "duration": "3",
+                        "amount": "10000",
+                        "interest_rate": "2",
+                        "creation_date": [2022, 12, 17, 10, 12, 10],
+                        "scrap_date":[0]
+                    }
+                ],
+                "credits": [
+                    {
+                        "duration": "6",
+                        "amount": "10000",
+                        "interest_rate": "5",
+                        "creation_date": [2022, 12, 5, 10, 12, 10],
+                        "last_installment_date": [2023, 1, 5, 10, 12, 10],
+                        "scrap_date": [2023, 6, 5, 10, 12, 10]
+                    }
+                ],
+                "expenses": [
+                    {
+                        "month": "12",
+                        "year": "2022",
+                        "amount": "10000"
+                    }
+                ],
+                "credit_transfer": [
+                    {
+                        "amount": "1100",
+                        "date": [2023, 1, 5, 10, 12, 10]
+                    }
+                ],
+                "overdue_credit_installments": "0"
+            }
+        },
+        {
+            "id": "3",
+            "pass": "pap3",
+            "name": "Kuba",
+            "phone": "333111222",
+            "main_acc": {
+                "id": "3",
+                "money": "30000",
+                "bank_transfers": [
+                    {
+                        "sender_id": "3",
+                        "reciver_id": "1",
+                        "amount": "1000",
+                        "title": "przelew",
+                        "send_date": [2022, 12, 17, 10, 10, 10],
+                        "recive_date": [2022, 12 ,17, 10, 11, 10]
+                    }
+                ],
+                "currency_accounts": [
+                    {
+                        "currency_sign": "$",
+                        "amount": "10000",
+                        "form_date": [2022, 12, 17, 10, 11, 10],
+                        "scrap_date": [2022, 12, 17, 10, 12, 10]
+                    }
+                ],
+                "deposits": [
+                    {
+                        "duration": "3",
+                        "amount": "10000",
+                        "interest_rate": "2",
+                        "creation_date": [2022, 12, 17, 10, 12, 10],
+                        "scrap_date":[0]
+                    }
+                ],
+                "credits": [
+                    {
+                        "duration": "6",
+                        "amount": "10000",
+                        "interest_rate": "5",
+                        "creation_date": [2022, 12, 17, 10, 12, 10],
+                        "last_installment_date": [2023, 1, 6, 10, 12, 10],
+                        "scrap_date": [2023, 6, 17, 10, 12, 10]
+                    }
+                ],
+                "expenses": [
+                    {
+                        "month": "12",
+                        "year": "2022",
+                        "amount": "10000"
+                    }
+                ],
+                "credit_transfer": [
+
+                ],
+                "overdue_credit_installments": "0"
+            }
+        }
+    ],
+    "admins": [
+        {
+            "id": "0",
+            "name": "admin",
+            "password": "admin"
+        }
+    ],
+    "deposits_rates": {
+        "3": 2,
+        "6": 4,
+        "12": 6
+    },
+    "credit_rates": {
+        "6": 5,
+        "12": 7,
+        "24": 9
+    }
+    }]
